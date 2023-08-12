@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0;
+    background-color: #ada5a5;
+    
+}
+.image_slider{
+    margin: 0;
+    width: 100%;
+}
+.image{
+    width: 90%;
+    margin: 0;
+    height: 630px;
+}
+.left_right{
+    display: flex;
+    justify-content: center;
+}
+.left{
+    position: absolute;
+    margin-left: -50%;
+    margin-top: -30%;
+    width: 5%;
+}
+.right{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -30%;
+    width: 5%;
+}
+.dot2{
+    cursor: pointer;
+}
